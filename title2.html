@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання</title>
+</head>
+<body>
+    <h1>Таблиця множення</h1>
+    <p>Таблиця множення для чисел 21-30 та чисел, кратних 5, починаючи з 25.</p>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Число</th>
+                <th>Результати множення</th>
+            </tr>
+        </thead>
+        <tbody>
+            <script>
+                let num = 9;
+                for (let i = 21; i <= 30; i++) {
+                    document.write(`<tr><td>${i}</td><td>${i * num}</td></tr>`);
+                }
+   
+                for (let i = 25; i <= 50; i += 5) {
+                    document.write(`<tr><td>${i}</td><td>${i * num}</td></tr>`);
+                }
+            </script>
+        </tbody>
+    </table>
+    <nav>
+        <ul>
+            <li><a href="title1.html">Головна</a></li>
+            <li><a href="title2.html">Завдання</a></li>
+            <li><a href="title3.html">Команда</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
